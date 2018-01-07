@@ -8,7 +8,8 @@ header{
 }
 
 nav {
-
+  text-align: right;
+  display: inline-block;
   }
 
 .logo {
@@ -19,5 +20,5 @@ nav {
 }
 
 span {
-  text-align: right;
+
   }
