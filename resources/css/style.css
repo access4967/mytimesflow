@@ -1,27 +1,23 @@
-header{
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: inline-block;
-
-
 }
 
-nav {
-  text-align: right;
-  display: inline-block;
-  }
 
-.logo {
+header p{
   color: MediumAquamarine;
-  text-align: left;
   border: 1px solid black;
-
+  display: inline-block;
+  }
+header nav {
+  border: 1px solid black;
+  display: inline-block;
 }
 
-span {
-
-  }
+nav span{
+  text-align: right;
+}
 .maincontainer {
   display: flex;
 }
