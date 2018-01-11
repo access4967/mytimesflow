@@ -22,10 +22,10 @@ header {
   border: 1px solid red;
   }
 
-.mytimes {
-  color: MediumAquamarine;
-  border: 1px solid red;
-  padding-left: 30px;
+  .mytimes {
+    color: MediumAquamarine;
+    border: 1px solid red;
+    padding-left: 30px;
 
 }
 header .logo {
@@ -41,9 +41,10 @@ header .logo {
 
   }
 
-header li {
+header span a {
   display: inline-block;
   border: 1px solid red;
+  position: center;
   color: black;
   padding-left: 30px;
 
