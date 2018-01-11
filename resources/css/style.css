@@ -16,23 +16,25 @@ header {
 .logo  {
   color: MediumAquamarine;
   text-align: left;
-  border: 1px solid red;
   width: 75%;
   padding-left: 30px;
+  display: flex;
+  align-items: center;
+  }
 
+  .mytimes {
+    padding-left: 15px;
   }
 
 .navmenu {
   width: 25%;
-  border: 1px solid green;
+
   text-align: right;
-  display: inline-block;
   padding-right: 30px;
 
   }
 
 header span a {
-  display: inline-block;
   color: black;
   padding: 0px 15px;
 
