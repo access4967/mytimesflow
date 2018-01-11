@@ -43,10 +43,12 @@ header .logo {
 
 header span a {
   display: inline-block;
-  border: 1px solid red;
-  position: center;
   color: black;
-  padding-left: 30px;
+  padding: 0px 15px;
+
+  }
+
+  header .logo .mytimes {
 
   }
 
