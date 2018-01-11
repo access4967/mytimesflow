@@ -13,27 +13,17 @@ header {
   z-index: 5;
 }
 
-.logo   {
+.logo  {
   color: MediumAquamarine;
-  display: inline-block;
-  height: 60px;
-  padding-left: 30px;
   text-align: left;
   border: 1px solid red;
+  width: 75%;
+  padding-left: 30px;
+
   }
 
-  .mytimes {
-    color: MediumAquamarine;
-    border: 1px solid red;
-    padding-left: 30px;
-
-}
-header .logo {
-  width: 75%;
-}
 .navmenu {
   width: 25%;
-  height: 60px;
   border: 1px solid green;
   text-align: right;
   display: inline-block;
@@ -48,9 +38,7 @@ header span a {
 
   }
 
-  header .logo .mytimes {
 
-  }
 
 
 .maincontainer {
