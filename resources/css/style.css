@@ -1,68 +1,111 @@
+
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 1px solid black;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  align-items: center;
+  z-index: 5;
 }
 
-
-header p{
+.logo   {
   color: MediumAquamarine;
-  border: 1px solid black;
   display: inline-block;
+  height: 60px;
+  padding-left: 30px;
+  text-align: left;
+  border: 1px solid red;
   }
-header nav {
-  border: 1px solid black;
-  display: inline-block;
-}
 
-nav span{
-  text-align: right;
+.mytimes {
+  color: MediumAquamarine;
+  border: 1px solid red;
+  padding-left: 30px;
+
 }
+header .logo {
+  width: 75%;
+}
+.navmenu {
+  width: 25%;
+  height: 60px;
+  border: 1px solid green;
+  text-align: right;
+  display: inline-block;
+  padding-right: 30px;
+
+  }
+
+header li {
+  display: inline-block;
+  border: 1px solid red;
+  color: black;
+  padding-left: 30px;
+
+  }
+
+
 .maincontainer {
   display: flex;
+  border: 1px solid black;
+  position: absolute;
+
 }
-  .column.large {
+
+.column.large {
   width: 630px;
-  display: flex;
-  border: 1px solid black;
-}
+  display: inline-block;
+  position: relative;
 
-.buys {
-  border: 1px solid black;
 
 }
 
-.az {
+.mother {
   border: 1px solid black;
+
+}
+
+.monument {
+  border: 1px solid black;
+
 }
 
 .orca {
   border: 1px solid black;
+
 }
 
 .puget {
   border: 1px solid black;
+
+}
+
+.earth {
+  border: 1px solid black;
+
 }
 
 .burger {
   border: 1px solid black;
-}
 
-.mew {
-  border: 1px solid black;
 }
 
 .research {
   border: 1px solid black;
 }
+
 .column.medium {
   width: 300px;
-  display: flex;
-  border: 1px solid black;
+  display: inline-block;
+
 }
 
 .column.small {
   width: 240px;
-  display: flex;
-  border: 1px solid black;
+  display: inline-block;
 }
