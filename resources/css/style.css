@@ -14,7 +14,8 @@ header {
   position: fixed;
   background-color: white;
   align-items: center;
-  z-index: 5;
+  z-index: 20;
+  top: 0;
 }
 
 .logo  {
@@ -49,31 +50,41 @@ header span a {
 .maincontainer {
   display: flex;
   border: 1px solid black;
-  z-index: 10;
-  align-items: center;
+  z-index: 5;
+  width: 100%;
+  position: relative;
+  top: 80px;
 
 }
 
 .column {
-  display: flex;
-  border: 1px solid black;
-  display: flex;
-  padding-right: 15px;
-  display: inline-block;
+  margin-right: 32px;
 
   }
 
 .column.large {
   width: 630px;
+  border: 1px solid black;
+
+
 }
 
-div{  border: 1px solid black;
-}
+p {
+  border-bottom: 1px solid black;}
+
+h1 {
+  border-top: 2px solid black;}
+
 
 .column.medium {
+
   width: 300px;
+  border: 1px solid black;
+
 }
 
 .column.small {
   width: 240px;
+  border: 1px solid black;
+
 }
